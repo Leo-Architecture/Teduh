@@ -1,0 +1,17 @@
+{
+  "name": "teduh-client",
+  "private": true,
+  "version": "4.0.0",
+  "description": "Teduh web app: React pages built with esbuild into dist/",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}

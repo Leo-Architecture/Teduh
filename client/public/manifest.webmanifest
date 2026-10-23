@@ -1,0 +1,14 @@
+{
+  "name": "Teduh: cool path navigation",
+  "short_name": "Teduh",
+  "description": "Shade-first walking routes and street-level flood warnings for Malaysia.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#0B4F46",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

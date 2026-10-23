@@ -1,0 +1,14 @@
+{
+  "name": "teduh",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Teduh: shade-first, flood-aware walking routes for any township in Malaysia. Hackathon prototype.",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "test": "node tests/logic.js && node tests/units.js && node tests/shadow.js && node tests/paths.js && node tests/appwrite.js && node tests/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
